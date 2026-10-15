@@ -1,0 +1,168 @@
+nav {
+  width: 1290px;
+  height: 80px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 15px #a5b9c2;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  background-color: #ccdde7;
+}
+nav div {
+  width: 200px;
+  height: 120px;
+}
+nav img {
+  margin-right: 50px;
+  width: 125px;
+}
+.nav-img-b {
+  width: 80px;
+  height: 80px;
+  margin: 5px;
+  margin-top: 10px;
+  mix-blend-mode: multiply;
+}
+.nav-img-bc {
+  width: 120px;
+  height: 80px;
+  margin-top: 38px;
+}
+.cliente {
+}
+.credito {
+}
+.debito {
+}
+nav ul {
+  width: 1040px;
+  height: 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  align-items: center;
+}
+nav li {
+  list-style: none;
+  border-radius: 10px;
+}
+nav li .prestamo {
+  list-style: none;
+  width: 160px;
+  height: 60px;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  background-color: #8ac2e5;
+  border-radius: 10px;
+}
+nav li .cliente {
+  list-style: none;
+  width: 160px;
+  height: 60px;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  background-color: #368ec4;
+  border-radius: 10px;
+}
+nav li .cliente:hover {
+  background-color: #8fc435;
+  color: blue;
+}
+nav li .prestamo:hover {
+  background-color: #8fc435;
+  color: blue;
+}
+li a {
+  color: black;
+  font-weight: bold;
+}
+li a:hover {
+  color: blue;
+}
+main {
+  width: auto;
+  height: 60%;
+  border-radius: 5px black;
+  display: grid;
+  grid-template-columns: 400px 420px 420px;
+}
+
+main p {
+  font-size: 20px;
+}
+body {
+  font-family: Arial;
+  display: grid;
+  grid-column: 1fr 1fr 1fr;
+  background-color: #d6e9e6;
+  height: 1250px;
+}
+
+form {
+  width: 300px;
+  height: 350px;
+  text-align: justif;
+  margin: 10px;
+}
+
+input,
+textarea {
+  width: 100%;
+  height: 50px;
+  margin: 10px;
+  text-align: justify;
+}
+.uno {
+  text-align: justify;
+  width: 350px;
+  margin-left: 20px;
+  background-color: #ccdde7;
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px #a5b9c2;
+}
+footer {
+  width: auto;
+  border-radius: 20px;
+  box-shadow: 5px 5px 15px #a5b9c2;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  background-color: #ccdde7;
+  height: 100px;
+}
+header {
+  width: auto;
+  height: 20%;
+}
+iframe {
+  border-radius: 10px;
+  text-align: center;
+  width: 400px;
+  height: 500px;
+  margin: 10px;
+}
+main div img {
+  height: 500px;
+  border-radius: 10px;
+  width: 500px;
+}
+footer img {
+  width: 50px;
+  margin: 20px;
+  border-radius: 10px;
+}
+.dos {
+  width: 65px;
+  margin: 20px;
+  border-radius: 10px;
+}
+.tres {
+  border-radius: 25px;
+  margin: 20px;
+}
+h3 {
+  margin: 40px;
+}
